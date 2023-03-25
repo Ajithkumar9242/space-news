@@ -2,7 +2,7 @@
 import { Card, CardBody, Divider, Flex, Heading, Image, SimpleGrid, Stack, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import  { React, useEffect, useState } from 'react'
 import "./App.css";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 // import { Text } from '@chakra-ui/react'
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
 
 
   return (
-    <div>
+    <Fade>
       <div className="title">
         <Heading color={"white"} as='h2' size='3xl' textAlign={'center'}>Space News</Heading>
         <br />
@@ -69,7 +69,7 @@ const App = () => {
       
 
 
-    </div>
+    </Fade>
   )
 }
 
