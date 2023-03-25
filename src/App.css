@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+*{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.title{
+  background-image: url("./bg.jpg");
+  min-height: 100vh;
+  margin-bottom: 1em;
+}
